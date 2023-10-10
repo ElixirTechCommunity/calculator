@@ -7,7 +7,7 @@ Click on the **Fork** button on the top-right handside of your screen. This will
 ## Clone the repository
 Open command prompt (for windows) or terminal (for macOS) and run the command:
 ```
-git clone https://github.com/ElixirTechCommunity/Netflix-clone.git
+git clone https://github.com/ElixirTechCommunity/calculator.git
 ```
 
 ## Create a branch
