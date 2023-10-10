@@ -8,8 +8,8 @@
 
 ## Instructions to run
 ```
-$ git clone https://github.com/ElixirTechCommunity/Handmade_craft-site.git
-$ cd Handmade_craft-site
+$ git clone https://github.com/ElixirTechCommunity/calculator.git
+$ cd calculator
 $ Open Live Server
 ```
 
