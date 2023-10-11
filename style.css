@@ -18,7 +18,7 @@ body{
 
 h1{
     position: relative;
-    left: 43%;
+    left: 44%;
     top: -7px;
     /* top: -15px; */
     /* padding-bottom: 1%; */
@@ -39,7 +39,7 @@ h1{
     grid-template-columns: repeat(4,80px);
     grid-template-rows: minmax(120px,auto) repeat(5,80px);
     grid-gap: 8px;
-    border: 5px solid gray;
+    border: 5px solid rgb(236, 236, 236);
     border-radius: 7px;
     /* border: 2px solid black; */
     /* position: relative;
@@ -51,13 +51,14 @@ h1{
     font-size: 2rem;
     border: 1px solid rgb(204, 247, 248);
     outline: none;
-    background-color:rgba(223, 208, 208) ;
+    color: white;
+    background-color:rgb(22, 22, 22) ;
     border-radius: 7px;
     /* box-shadow: 5px 5px gray; */
 }
 
 .calculator-grid > button:hover{
-    background-color: white;
+    background-color: rgba(214, 208, 208, 0.293);
 }
 
 .span-two{
@@ -67,7 +68,7 @@ h1{
 .output{
     grid-column: 1/-1;
     /* background-color: rgba(0,0,0,.65); */
-    background-color: gray;
+    background-color: rgb(198, 198, 198);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
