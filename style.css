@@ -16,16 +16,15 @@ body{
     background-size: cover;
 }
 
-h1{
+#title{
     position: relative;
     left: 44%;
     top: -7px;
-    /* top: -15px; */
-    /* padding-bottom: 1%; */
     font-size: 55px;
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Sans Pro', sans-serif;
-    color: whitesmoke;
+    color: rgb(255, 225, 0);
+    
 }
 .calculator-grid{
     display: grid;
