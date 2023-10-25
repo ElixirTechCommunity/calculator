@@ -22,7 +22,6 @@ Click on the link to register yourself [here](https://hacktoberfest.com/).
 ## Why should you take part?
 - Chance to contribute to awesome open source projects 
 - Engage with reputed communities
-- Free swags and T-Shirts 
 
 ## CONTRIBUTING
 
