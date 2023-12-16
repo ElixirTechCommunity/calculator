@@ -112,6 +112,46 @@ deleteButton.addEventListener('click' , button =>{
     calculator.updateDisplay()
 })
 
+//Connecting keyboard to UI
+
+document.addEventListener("keydown", function(event) {
+    const key = event.key;
+
+    if (/[0-9]/.test(key)) {
+        calculator.appendNumber(key);
+        calculator.updateDisplay();
+    } else if (key === "+") {
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
+    } else if (key === "-") {
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
+    } else if (key === "*") {
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
+    } else if (key === "/") {
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
+    } else if (key === "%") {
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
+    } else if (key === ".") {
+        calculator.appendNumber(key);
+        calculator.updateDisplay();
+    } else if (key === "Backspace") {
+        calculator.delete();
+        calculator.updateDisplay();
+    } else if (key === "Enter" || key === "=") {
+        calculator.compute();
+        calculator.updateDisplay();
+    }
+    else if (key === "Escape") {
+        calculator.clear();
+        calculator.updateDisplay();
+    }
+
+});
+
 
 
 
